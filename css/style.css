@@ -50,8 +50,6 @@
 }
 
 .buy-buttons > button{
-  display: flex;
-  justify-content: flex-end;
   font-size: larger;
   width: 45px;
   height: 45px;
@@ -63,7 +61,8 @@
 }
 .buy-buttons > button > p{
   display: none;
-  transition: display 2s;
+  overflow: hidden;
+  transition: display 1s;
 }
 .buy-buttons > button:hover{
   display: flex;
