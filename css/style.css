@@ -1,0 +1,99 @@
+* {
+	direction: rtl;
+	font-family: "IRAN Sans";
+}
+
+.navbar {
+	font-size: xx-large;
+}
+
+.navbar ul {
+	width: 50vh;
+}
+
+.navbar .btn-outline-dark {
+	font-size: large;
+	font-weight: bolder;
+}
+
+.banner {
+	background-image: url(https://geekygimp.com/wp-content/uploads/2018/11/HeadphonesBlog.jpg);
+	background-size: cover;
+	height: 70vh;
+	background-position: center;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.banner .banner-text {
+	font-weight: bolder;
+	font-size: 5vh;
+	width: 28%;
+	text-align: center;
+}
+.row {
+	margin: 15px;
+}
+
+.fa-star,
+.fa-star-half-alt {
+	color: #fdcc0d;
+}
+
+.badge {
+	font-size: medium;
+}
+
+.headphone-tag {
+  border-bottom: #F00 3px solid;
+}
+
+.buy-buttons > button{
+  display: flex;
+  justify-content: flex-end;
+  font-size: larger;
+  width: 45px;
+  height: 45px;
+  margin: 1%;
+  transition:width 1s;
+}
+.buy-buttons > button > i{
+  padding-top: 5px;
+}
+.buy-buttons > button > p{
+  display: none;
+  transition: display 2s;
+}
+.buy-buttons > button:hover{
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.buy-buttons > button:hover p{
+  display: inline;
+}
+
+footer {
+	height: 50%;
+	background-color: #808080;
+	display: grid;
+	grid-template-columns: 60% 35%;
+	grid-column-gap: 5%;
+	text-align: justify;
+	color: #fff;
+}
+@media (max-width: 768px) {
+	footer {
+		display: block;
+	}
+}
+
+footer {
+	font-size: x-large;
+}
+
+footer .links a i {
+	color: #fff;
+}
