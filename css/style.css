@@ -11,6 +11,10 @@
 	width: 50vh;
 }
 
+.unread-dot {
+	top: 10px;
+}
+
 .navbar .btn-outline-dark {
 	font-size: large;
 	font-weight: bolder;
@@ -44,6 +48,17 @@
 
 .badge {
 	font-size: medium;
+}
+
+.card-title {
+	font-family: "B Nazanin";
+	font-weight: bold;
+}
+
+.card-text {
+	font-family: "B Nazanin";
+	font-weight: bolder;
+	font-size: larger;
 }
 
 .headphone-tag {
@@ -92,6 +107,10 @@ footer {
 
 footer {
 	font-size: x-large;
+}
+
+footer p {
+	font-size: 1.5vw;
 }
 
 footer .links a i {

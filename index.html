@@ -1,8 +1,3 @@
-<!-- #TODO -->
-<!-- change font of numbers -->
-<!-- strikeout -->
-<!-- progressbar -->
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -43,8 +38,13 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#"><i class="fas fa-home"></i></a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item position-relative">
 							<a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+							<span
+								class="unread-dot position-absolute start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"
+							>
+								<span class="visually-hidden">unread messages</span>
+							</span>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#"><i class="far fa-user"></i></a>
@@ -54,6 +54,9 @@
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="spinner-border text-secondary m-1" role="status">
+				<span class="visually-hidden">Loading...</span>
 			</div>
 			<button type="button" class="btn btn-outline-dark"><i class="fas fa-user"></i> ثبت نام / ورود</button>
 		</header>
@@ -179,7 +182,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="headphone-tag display-6 d-inline-block w-auto me-5">هدفون‌ها</div>
+			<div class="headphone-tag display-6 d-inline-block w-auto me-5">هــدفـون‌هـا</div>
 			<div class="row row-cols-md-4 row-cols-sm-3 row-cols-1 g-4">
 				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
 					<div class="card shadow bg-body rounded">
@@ -315,10 +318,10 @@
 			<div>
 				<h2>ما را در شبکه‌های اجتماعی دنبال کنید</h2>
 				<div class="links d-flex justify-content-around pt-5">
-					<a href="#"><i class="fab fa-telegram-plane"></i></a>
-					<a href="#"><i class="fab fa-linkedin-in"></i></a>
-					<a href="#"><i class="fab fa-instagram"></i></a>
-					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-telegram-plane" data-bs-toggle="tooltip" title="Telegram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in" data-bs-toggle="tooltip" title="LinkedIn"></i></a>
+					<a href="#"><i class="fab fa-instagram" data-bs-toggle="tooltip" title="Instagram"></i></a>
+					<a href="#"><i class="fab fa-twitter" data-bs-toggle="tooltip" title="Twitter"></i></a>
 				</div>
 			</div>
 		</footer>
