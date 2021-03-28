@@ -19,6 +19,7 @@
 .banner {
 	background-image: url(https://geekygimp.com/wp-content/uploads/2018/11/HeadphonesBlog.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	height: 70vh;
 	background-position: center;
 	display: flex;
@@ -46,32 +47,32 @@
 }
 
 .headphone-tag {
-  border-bottom: #F00 3px solid;
+	border-bottom: #f00 3px solid;
 }
 
-.buy-buttons > button{
-  font-size: larger;
-  width: 45px;
-  height: 45px;
-  margin: 1%;
-  transition:width 1s;
+.buy-buttons > button {
+	font-size: larger;
+	width: 45px;
+	height: 45px;
+	margin: 1%;
+	transition: width 1s;
 }
-.buy-buttons > button > i{
-  padding-top: 5px;
+.buy-buttons > button > i {
+	padding-top: 5px;
 }
-.buy-buttons > button > p{
-  display: none;
-  overflow: hidden;
-  transition: display 1s;
+.buy-buttons > button > p {
+	display: none;
+	overflow: hidden;
+	transition: display 1s 1s;
 }
-.buy-buttons > button:hover{
-  display: flex;
-  justify-content: space-between;
-  width: 120px;
+.buy-buttons > button:hover {
+	display: flex;
+	justify-content: space-between;
+	width: 120px;
 }
 
-.buy-buttons > button:hover p{
-  display: inline;
+.buy-buttons > button:hover p {
+	display: inline;
 }
 
 footer {
