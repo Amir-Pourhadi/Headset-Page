@@ -1,6 +1,7 @@
 * {
 	direction: rtl;
 	font-family: "IRAN Sans";
+	user-select: none;
 }
 
 .navbar {
@@ -15,9 +16,12 @@
 	top: 10px;
 }
 
-.navbar .btn-outline-dark {
+.navbar .signIn-btn {
 	font-size: large;
 	font-weight: bolder;
+	position: absolute;
+	top: 9px;
+	left: 9px;
 }
 
 .banner {
@@ -37,6 +41,7 @@
 	width: 28%;
 	text-align: center;
 }
+
 .row {
 	margin: 15px;
 }
@@ -69,16 +74,19 @@
 	width: 45px;
 	height: 45px;
 	margin: 1%;
+	overflow: hidden;
 	border-radius: 50%;
 	transition: all 1s;
 }
+
 .buy-buttons > button > i {
 	padding-top: 5px;
 }
+
 .buy-buttons > button > p {
 	display: none;
-	overflow: hidden;
 }
+
 .buy-buttons > button:hover {
 	display: flex;
 	justify-content: space-between;
@@ -99,7 +107,12 @@ footer {
 	text-align: justify;
 	color: #fff;
 }
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
+	header {
+		display: inline;
+	}
+
 	footer {
 		display: block;
 	}
