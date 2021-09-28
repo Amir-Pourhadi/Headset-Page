@@ -1,131 +1,131 @@
 * {
-	direction: rtl;
-	font-family: "IRAN Sans";
-	user-select: none;
+  direction: rtl;
+  font-family: "IRAN Sans";
+  user-select: none;
 }
 
 .navbar {
-	font-size: xx-large;
+  font-size: xx-large;
 }
 
 .navbar ul {
-	width: 50vh;
+  width: 50vh;
 }
 
 .unread-dot {
-	top: 10px;
+  top: 10px;
 }
 
 .navbar .signIn-btn {
-	font-size: large;
-	font-weight: bolder;
-	position: absolute;
-	top: 9px;
-	left: 9px;
+  font-size: large;
+  font-weight: bolder;
+  position: absolute;
+  top: 9px;
+  left: 9px;
 }
 
 .banner {
-	background-image: url(https://geekygimp.com/wp-content/uploads/2018/11/HeadphonesBlog.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	height: 70vh;
-	background-position: center;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+  background-image: url(https://geekygimp.com/wp-content/uploads/2018/11/HeadphonesBlog.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .banner .banner-text {
-	font-weight: bolder;
-	font-size: 5vh;
-	width: 28%;
-	text-align: center;
+  font-weight: bolder;
+  font-size: 5vh;
+  width: 28%;
+  text-align: center;
 }
 
 .row {
-	margin: 15px;
+  margin: 15px;
 }
 
 .fa-star,
 .fa-star-half-alt {
-	color: #fdcc0d;
+  color: #fdcc0d;
 }
 
 .badge {
-	font-size: medium;
+  font-size: medium;
 }
 
 .card-title {
-	font-family: "B Nazanin";
-	font-weight: bold;
+  font-family: "B Nazanin";
+  font-weight: bold;
 }
 
 .card-text {
-	font-family: "B Nazanin";
-	font-size: larger;
+  font-family: "B Nazanin";
+  font-size: larger;
 }
 
 .headphone-tag {
-	border-bottom: #f00 3px solid;
+  border-bottom: #f00 3px solid;
 }
 
 .buy-buttons > button {
-	font-size: larger;
-	width: 45px;
-	height: 45px;
-	margin: 1%;
-	overflow: hidden;
-	border-radius: 50%;
-	transition: all 1s;
+  font-size: larger;
+  width: 45px;
+  height: 45px;
+  margin: 1%;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 1s;
 }
 
 .buy-buttons > button > i {
-	padding-top: 5px;
+  padding-top: 5px;
 }
 
 .buy-buttons > button > p {
-	display: none;
+  display: none;
 }
 
 .buy-buttons > button:hover {
-	display: flex;
-	justify-content: space-between;
-	border-radius: 100px;
-	width: 120px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 100px;
+  width: 120px;
 }
 
 .buy-buttons > button:hover p {
-	display: inline;
+  display: inline;
 }
 
 footer {
-	height: 50%;
-	background-color: #808080;
-	display: grid;
-	grid-template-columns: 60% 35%;
-	grid-column-gap: 5%;
-	text-align: justify;
-	color: #fff;
+  height: 50%;
+  background-color: #808080;
+  display: grid;
+  grid-template-columns: 60% 35%;
+  grid-column-gap: 5%;
+  text-align: justify;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
-	header {
-		display: inline;
-	}
+  header {
+    display: inline;
+  }
 
-	footer {
-		display: block;
-	}
+  footer {
+    display: block;
+  }
 }
 
 footer {
-	font-size: x-large;
+  font-size: x-large;
 }
 
 footer p {
-	font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 footer .links a i {
-	color: #fff;
+  color: #fff;
 }
