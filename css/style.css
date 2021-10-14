@@ -10,7 +10,7 @@
 
 * {
   direction: rtl;
-  font-family: "Yekan";
+  font-family: "Yekan", sans-serif;
   user-select: none;
 }
 
@@ -66,12 +66,12 @@
 }
 
 .card-title {
-  font-family: "Nazanin";
+  font-family: "Nazanin", sans-serif;
   font-weight: bold;
 }
 
 .card-text {
-  font-family: "Nazanin";
+  font-family: "Nazanin", sans-serif;
   font-size: larger;
 }
 
