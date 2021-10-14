@@ -116,6 +116,7 @@ footer {
   grid-column-gap: 5%;
   text-align: justify;
   color: #fff;
+  font-size: x-large;
 }
 
 @media screen and (max-width: 768px) {
@@ -126,10 +127,6 @@ footer {
   footer {
     display: block;
   }
-}
-
-footer {
-  font-size: x-large;
 }
 
 footer p {
