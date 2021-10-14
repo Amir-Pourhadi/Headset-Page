@@ -1,6 +1,16 @@
+@font-face {
+  font-family: Yekan;
+  src: url("./Yekan.ttf");
+}
+
+@font-face {
+  font-family: Nazanin;
+  src: url("./Nazanin.ttf");
+}
+
 * {
   direction: rtl;
-  font-family: "IRAN Sans";
+  font-family: "Yekan";
   user-select: none;
 }
 
@@ -56,12 +66,12 @@
 }
 
 .card-title {
-  font-family: "B Nazanin";
+  font-family: "Nazanin";
   font-weight: bold;
 }
 
 .card-text {
-  font-family: "B Nazanin";
+  font-family: "Nazanin";
   font-size: larger;
 }
 
